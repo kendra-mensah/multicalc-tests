@@ -9,6 +9,8 @@ function App() {
 
   return (
     <main>
+      <h1>Multi-Calc</h1>
+      {/* rest of your app */}
       <h1>MultiCalc</h1>
       <OperandContext.Provider value={{ operand, setOperand }}>
         <FormWrapper />
